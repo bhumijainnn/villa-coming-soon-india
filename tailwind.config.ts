@@ -57,6 +57,10 @@ export default {
 					DEFAULT: 'hsl(var(--luxury-gold))',
 					foreground: 'hsl(var(--luxury-gold-foreground))'
 				},
+				'golden-yellow': {
+					DEFAULT: 'hsl(var(--golden-yellow))',
+					foreground: 'hsl(var(--golden-yellow-foreground))'
+				},
 				'warm-brown': {
 					DEFAULT: 'hsl(var(--warm-brown))',
 					foreground: 'hsl(var(--warm-brown-foreground))'
@@ -133,7 +137,8 @@ export default {
 			backgroundImage: {
 				'gradient-luxury': 'var(--gradient-luxury)',
 				'gradient-warm': 'var(--gradient-warm)',
-				'gradient-hero': 'var(--gradient-hero)'
+				'gradient-hero': 'var(--gradient-hero)',
+				'gradient-gold': 'var(--gradient-gold)'
 			},
 			boxShadow: {
 				'luxury': 'var(--shadow-luxury)',

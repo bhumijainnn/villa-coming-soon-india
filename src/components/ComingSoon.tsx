@@ -24,30 +24,32 @@ const ComingSoon = () => {
             Pan India Luxury Villas
           </Badge>
           
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 text-white animate-slide-up">
-            THE VILLA
-            <span className="block bg-gradient-luxury bg-clip-text text-transparent">
+          <h1 className="text-5xl md:text-7xl font-bold mb-6 text-foreground animate-slide-up">
+            <span className="bg-gradient-gold bg-clip-text text-transparent font-extrabold">
+              THE VILLA
+            </span>
+            <span className="block bg-gradient-gold bg-clip-text text-transparent font-extrabold">
               COMPANY
             </span>
           </h1>
           
-          <p className="text-xl md:text-2xl text-white/90 mb-8 max-w-2xl mx-auto animate-fade-in">
+          <p className="text-xl md:text-2xl text-foreground/90 mb-8 max-w-2xl mx-auto animate-fade-in">
             Discover extraordinary luxury villas across India. Experience unparalleled comfort and elegance.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12 animate-slide-up">
-            <div className="flex items-center gap-2 text-white">
-              <Star className="w-5 h-5 fill-luxury-gold text-luxury-gold" />
+            <div className="flex items-center gap-2 text-foreground">
+              <Star className="w-5 h-5 fill-golden-yellow text-golden-yellow" />
               <span className="text-lg font-semibold">Starting at ₹5,000/night</span>
             </div>
-            <div className="flex items-center gap-2 text-white">
-              <MapPin className="w-5 h-5 text-luxury-gold" />
+            <div className="flex items-center gap-2 text-foreground">
+              <MapPin className="w-5 h-5 text-golden-yellow" />
               <span className="text-lg">Available Pan India</span>
             </div>
           </div>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in">
-            <Button variant="luxury" size="lg" className="text-lg px-8 py-6">
+            <Button variant="golden" size="lg" className="text-lg px-8 py-6">
               <Calendar className="w-5 h-5 mr-2" />
               Book Your Stay
             </Button>
@@ -62,7 +64,7 @@ const ComingSoon = () => {
       {/* Coming Soon Notice */}
       <div className="py-16 px-4">
         <div className="max-w-6xl mx-auto text-center">
-          <Badge className="mb-6 bg-primary text-primary-foreground px-6 py-2 text-base animate-glow">
+          <Badge className="mb-6 bg-golden-yellow text-golden-yellow-foreground px-6 py-2 text-base animate-glow">
             Coming Soon
           </Badge>
           <h2 className="text-4xl md:text-5xl font-bold mb-6 text-foreground">
@@ -131,19 +133,19 @@ const ComingSoon = () => {
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="text-center">
-              <Phone className="w-6 h-6 mx-auto mb-2 text-primary" />
+              <Phone className="w-6 h-6 mx-auto mb-2 text-golden-yellow" />
               <p className="font-semibold">Call Us</p>
               <p className="text-muted-foreground">+91 98765 43210</p>
             </div>
             <div className="text-center">
-              <Mail className="w-6 h-6 mx-auto mb-2 text-primary" />
+              <Mail className="w-6 h-6 mx-auto mb-2 text-golden-yellow" />
               <p className="font-semibold">Email Us</p>
               <p className="text-muted-foreground">info@thevillacompany.in</p>
             </div>
           </div>
           
           <div className="text-center mt-8">
-            <Button variant="luxury" size="lg" className="px-8">
+            <Button variant="golden" size="lg" className="px-8">
               <Mail className="w-5 h-5 mr-2" />
               Notify Me When Ready
             </Button>
@@ -152,14 +154,16 @@ const ComingSoon = () => {
       </div>
 
       {/* Footer */}
-      <footer className="bg-warm-brown text-warm-brown-foreground py-8">
+      <footer className="bg-background border-t border-border py-8">
         <div className="max-w-6xl mx-auto px-4 text-center">
-          <h4 className="text-2xl font-bold mb-2">THE VILLA COMPANY</h4>
-          <p className="text-warm-brown-foreground/80 mb-4">
+          <h4 className="text-2xl font-bold mb-2 bg-gradient-gold bg-clip-text text-transparent">
+            THE VILLA COMPANY
+          </h4>
+          <p className="text-muted-foreground mb-4">
             Premium luxury villas across India • Starting at ₹5,000/night
           </p>
-          <div className="flex justify-center items-center gap-2 text-sm">
-            <MapPin className="w-4 h-4" />
+          <div className="flex justify-center items-center gap-2 text-sm text-muted-foreground">
+            <MapPin className="w-4 h-4 text-golden-yellow" />
             <span>Pan India Service</span>
           </div>
         </div>
