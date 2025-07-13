@@ -118,12 +118,21 @@ const ComingSoon = () => {
             Be the first to know when we launch. Contact us for exclusive preview bookings.
           </p>
           
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <div className="text-center">
             <Phone className="w-6 h-6 mx-auto mb-2 text-golden-yellow" />
             <p className="font-semibold">Call Us</p>
             <p className="text-muted-foreground">+91 94589 45894</p>
           </div>
+          <div className="text-center">
+            <Mail className="w-6 h-6 mx-auto mb-2 text-golden-yellow" />
+            <p className="font-semibold">Email Us</p>
+            <p className="text-muted-foreground">reservation@thevillacompany.in</p>
+          </div>
+          </div>
           
+
           <div className="text-center mt-8">
                 <a href="tel:+919458945894">
               <Button variant="golden" size="lg" className="px-8">
