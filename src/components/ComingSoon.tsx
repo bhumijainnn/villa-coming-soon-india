@@ -21,7 +21,7 @@ const ComingSoon = () => {
         
         <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
           <Badge className="mb-6 bg-luxury-gold text-luxury-gold-foreground px-4 py-2 text-sm font-medium animate-fade-in">
-            Pan India Luxury Villas
+             Luxury Villas
           </Badge>
           
           <h1 className="text-5xl md:text-7xl font-bold mb-6 text-foreground animate-slide-up">
@@ -36,18 +36,7 @@ const ComingSoon = () => {
           <p className="text-xl md:text-2xl text-foreground/90 mb-8 max-w-2xl mx-auto animate-fade-in">
             Discover extraordinary luxury villas across India. Experience unparalleled comfort and elegance.
           </p>
-          
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12 animate-slide-up">
-            <div className="flex items-center gap-2 text-foreground">
-              <Star className="w-5 h-5 fill-golden-yellow text-golden-yellow" />
-              <span className="text-lg font-semibold">Starting at ₹5,000/night</span>
-            </div>
-            <div className="flex items-center gap-2 text-foreground">
-              <MapPin className="w-5 h-5 text-golden-yellow" />
-              <span className="text-lg">Available Pan India</span>
-            </div>
-          </div>
-          
+                  
           <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in">
             <Button 
               variant="premium" 
@@ -132,11 +121,11 @@ const ComingSoon = () => {
           <div className="text-center">
             <Phone className="w-6 h-6 mx-auto mb-2 text-golden-yellow" />
             <p className="font-semibold">Call Us</p>
-            <p className="text-muted-foreground">+91 89803 45600</p>
+            <p className="text-muted-foreground">+91 94589 45894</p>
           </div>
           
           <div className="text-center mt-8">
-                <a href="tel:+918980345600">
+                <a href="tel:+919458945894">
               <Button variant="golden" size="lg" className="px-8">
               <Phone className="w-5 h-5 mr-2" />
               Call Now
@@ -154,12 +143,8 @@ const ComingSoon = () => {
             THE VILLA COMPANY
           </h4>
           <p className="text-muted-foreground mb-4">
-            Premium luxury villas across India • Starting at ₹5,000/night
+            Shivalik Shilp 2, 1007, Judges Bunglow Rd, next to Ratnaakar Nine Square, Suryapooja Block B, Satellite, Ahmedabad, Gujarat 380015
           </p>
-          <div className="flex justify-center items-center gap-2 text-sm text-muted-foreground">
-            <MapPin className="w-4 h-4 text-golden-yellow" />
-            <span>Pan India Service</span>
-          </div>
         </div>
       </footer>
     </div>
