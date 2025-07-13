@@ -49,11 +49,12 @@ const ComingSoon = () => {
           </div>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in">
-            <Button variant="golden" size="lg" className="text-lg px-8 py-6">
-              <Calendar className="w-5 h-5 mr-2" />
-              Book Your Stay
-            </Button>
-            <Button variant="premium" size="lg" className="text-lg px-8 py-6">
+            <Button 
+              variant="premium" 
+              size="lg" 
+              className="text-lg px-8 py-6"
+              onClick={() => document.getElementById('early-access')?.scrollIntoView({ behavior: 'smooth' })}
+            >
               <Phone className="w-5 h-5 mr-2" />
               Contact Us
             </Button>
@@ -67,9 +68,6 @@ const ComingSoon = () => {
           <Badge className="mb-6 bg-golden-yellow text-golden-yellow-foreground px-6 py-2 text-base animate-glow">
             Coming Soon
           </Badge>
-          <h2 className="text-4xl md:text-5xl font-bold mb-6 text-foreground">
-            Website Under Development
-          </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto mb-12">
             We're crafting an exceptional digital experience to showcase our luxury villa collection. 
             Stay tuned for the grand launch of our booking platform.
@@ -125,29 +123,22 @@ const ComingSoon = () => {
         </div>
 
         {/* Contact Information */}
-        <Card className="max-w-2xl mx-auto p-8 shadow-luxury">
+        <Card id="early-access" className="max-w-2xl mx-auto p-8 shadow-luxury">
           <h3 className="text-2xl font-bold text-center mb-6">Get Early Access</h3>
           <p className="text-center text-muted-foreground mb-8">
             Be the first to know when we launch. Contact us for exclusive preview bookings.
           </p>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <div className="text-center">
-              <Phone className="w-6 h-6 mx-auto mb-2 text-golden-yellow" />
-              <p className="font-semibold">Call Us</p>
-              <p className="text-muted-foreground">+91 98765 43210</p>
-            </div>
-            <div className="text-center">
-              <Mail className="w-6 h-6 mx-auto mb-2 text-golden-yellow" />
-              <p className="font-semibold">Email Us</p>
-              <p className="text-muted-foreground">info@thevillacompany.in</p>
-            </div>
+          <div className="text-center">
+            <Phone className="w-6 h-6 mx-auto mb-2 text-golden-yellow" />
+            <p className="font-semibold">Call Us</p>
+            <p className="text-muted-foreground">+91 89803 45600</p>
           </div>
           
           <div className="text-center mt-8">
             <Button variant="golden" size="lg" className="px-8">
-              <Mail className="w-5 h-5 mr-2" />
-              Notify Me When Ready
+              <Phone className="w-5 h-5 mr-2" />
+              Call Now
             </Button>
           </div>
         </Card>
